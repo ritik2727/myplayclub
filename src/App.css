@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+.circle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 50%;
+  border:3px solid rgba(113, 104, 104, 0.704);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.circle-content {
+  text-align: center;
+}
+
+.circle-number {
+  font-weight: bold;
+}
+
+.circle-text {
+  font-size: 14px;
+}
